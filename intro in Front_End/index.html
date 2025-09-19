@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>HTML Form Example</h1>
+
+    <form>
+        <!-- User Information -->
+        <fieldset>
+            <legend>User Information</legend>
+            <label>Username: <input type="text" name="username"></label><br><br>
+            <label>Email: <input type="email" name="email"></label><br><br>
+            <label>Password: <input type="password" name="password"></label>
+        </fieldset>
+        <br>
+
+        <!-- Contact Information -->
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label>Phone: <input type="tel" name="phone"></label><br><br>
+            <label>Message:<br>
+                <textarea name="message" rows="4" cols="40"></textarea>
+            </label>
+        </fieldset>
+        <br>
+
+        <!-- Subscription -->
+        <fieldset>
+            <legend>Subscription</legend>
+            <label><input type="checkbox" name="newsletter1"> Subscribe to newsletter</label><br>
+            <label><input type="checkbox" name="newsletter2"> Subscribe to newsletter</label>
+        </fieldset>
+        <br>
+
+        <!-- Preferred Language -->
+        <fieldset>
+            <legend>Preferred Language</legend>
+            <label for="language">Select your preferred language:</label>
+            <select name="language" id="language">
+                <option>English</option>
+                <option>Spanish</option>
+                <option>French</option>
+                <option>German</option>
+            </select>
+        </fieldset>
+        <br>
+
+        <!-- Feedback -->
+        <fieldset>
+            <legend>Feedback</legend>
+            <label for="rating">Rate our service:</label>
+            <input type="range" id="rating" name="rating" min="1" max="10">
+        </fieldset>
+        <br>
+
+        <!-- Buttons -->
+        <input type="submit" value="Submit" class="btn">
+        <input type="reset" value="Reset" class="btn reset">
+    </form>
+</body>
+</html>

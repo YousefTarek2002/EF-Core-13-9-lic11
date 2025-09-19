@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    margin: 20px;
+    color: #333;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+form {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+fieldset {
+    border: 1px solid #aaa;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background: #fafafa;
+}
+
+legend {
+    font-weight: bold;
+    color: #007bff;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+textarea,
+select {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0,123,255,0.5);
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="range"] {
+    width: 90%;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.reset {
+    background: #6c757d;
+}
+
+.reset:hover {
+    background: #5a6268;
+}
